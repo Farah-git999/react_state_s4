@@ -8,6 +8,7 @@ function App() {
   return (
     <div className={DayTime? "Morning" : "Night" }>
      <h1 className="center">DayTime: {DayTime? "Morning" : "Night"}</h1>
+     <br />
      <Message counter={count} />
      <button className="buttonCenter" onClick={()=> setCount(++count)}>Increament Counter</button>
      <br />
